@@ -1,0 +1,16 @@
+space id: rl9juo5qau5y
+Content Delivery API - access token: WsGdSIdBttGXNQ0nwVZOFMojrZBO-8urGhGKAftzwE8
+Content Preview API - access token: zXz3EQRPpynxLGPOVH3fMrda9GEswujv48dpkTJswFo
+
+content management token: CFPAT-RXOf2MtV8BX2apBt7VyoO3ADUoioGC9U9ZZgjbnMfmw
+
+npx cross-env CONTENTFUL_SPACE_ID=rl9juo5qau5y CONTENTFUL_MANAGEMENT_TOKEN=CFPAT-RXOf2MtV8BX2apBt7VyoO3ADUoioGC9U9ZZgjbnMfmw npm run setup
+
+
+installed and able to be run - connected to my contentful backend correctly - 
+I got stalled on what signals {preview} which I think toggles the pre-header alert.
+
+Basically, this is a perfect starter. As soon as I get the basic template working, push to github
+then deploy master env, or maybe change test to deploy env? prob that - so we are working on dev normally
+and then when we want to run QA we push to master, and then when we want to push public go to deploy?
+
