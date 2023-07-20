@@ -41,6 +41,7 @@ export default function Post({ post, morePosts, preview }) {
                 author={post.author}
               />
               <PostBody content={post.content} />
+              <h2>can you believe this?</h2>
             </article>
             <SectionSeparator />
             {morePosts && morePosts.length > 0 && (
